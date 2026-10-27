@@ -123,8 +123,10 @@ Selected fields from the returned documents:
       "$date": "2030-01-01T10:00:00Z"
     },
     "source": {
-      "item_id": 501
-    }
+  "key": {
+    "item_id": 501
+  }
+}
   }
 ]
 ```
@@ -146,8 +148,10 @@ Selected fields from the returned documents:
       "$date": "2030-01-01T10:00:00Z"
     },
     "source": {
-      "item_id": 501
-    }
+  "key": {
+    "item_id": 501
+  }
+}
   },
   {
     "_id": "event_000002",
@@ -155,9 +159,11 @@ Selected fields from the returned documents:
     "occurredAt": {
       "$date": "2030-01-01T10:01:00Z"
     },
-    "source": {
-      "item_id": 501
-    }
+   "source": {
+  "key": {
+    "item_id": 501
+  }
+}
   }
 ]
 ```
@@ -179,8 +185,10 @@ Selected fields from the returned documents:
       "$date": "2030-01-01T10:00:00Z"
     },
     "source": {
-      "item_id": 501
-    }
+  "key": {
+    "item_id": 501
+  }
+}
   },
   {
     "_id": "event_000002",
@@ -189,8 +197,10 @@ Selected fields from the returned documents:
       "$date": "2030-01-01T10:01:00Z"
     },
     "source": {
-      "item_id": 501
-    }
+  "key": {
+    "item_id": 501
+  }
+}
   }
 ]
 ```
