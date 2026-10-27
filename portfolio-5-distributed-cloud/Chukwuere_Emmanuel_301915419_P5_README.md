@@ -12,7 +12,7 @@ One primary accepts writes. Two secondaries copy the oplog asynchronously. If th
 
 ## Consistency and the case
 
-For order_events, a proposed client policy is majority write concern with a finite timeout, primary reads and majority read concern where committed data is required. Secondary reads can lag. Application retries need an idempotency key so the same event is not recorded twice. PostgreSQL constraints remain authoritative for Each registered customer email identifies at most one customer. These settings do not create an atomic transaction across PostgreSQL and MongoDB. An outbox and retrying consumer would be a separate implementation.
+For order_events, a proposed client policy is majority write concern with a finite timeout, primary reads and majority read concern where committed data is required. Secondary reads can lag. Application retries need an idempotency key so the same event is not recorded twice. PostgreSQL constraints remain authoritative for relational business rules, including ensuring that each registered customer email identifies at most one customer. These settings do not create an atomic transaction across PostgreSQL and MongoDB. An outbox and retrying consumer would be a separate implementation.
 
 ## Sharding trade-off
 
